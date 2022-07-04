@@ -16,7 +16,7 @@ pip install bs4
 
 pip install git
 
-https://github.com/Saniatrrr/SG-FB-Cloner
+git clone https://github.com/Saniatrrr/SG-FB-Cloner
 
 cd SG-FB-Cloner
 
