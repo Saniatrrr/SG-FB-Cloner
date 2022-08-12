@@ -95,7 +95,7 @@ myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'w')
+	kok= 'mahabub'
 	kok.write(myid+imt)
 	kok.close()
 def login():
